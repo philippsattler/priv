@@ -10,11 +10,10 @@ const App: React.FC = () => {
       <main className="App-main">
         <section className="about-section">
           <div className="card-container">
-            <img src="https://github.com/philippsattler/priv/blob/main/src/image.jpg" alt="myself" />
+            <img className="round" src="http://philippsattler.de/image.jpg" alt="myself" />
             <h3>Philipp Sattler</h3>
             <p>Softwareentwickler</p>
             <br/>
-            <p>Ich bin ein begeisteter Softwareentwickler</p>
             <div className="skills">
               <h6>Skills</h6>
               <ul>
@@ -34,7 +33,7 @@ const App: React.FC = () => {
           <div className="contact-content">
             <h2>Kontakt</h2>
             <p>
-              Du kannst mich über meine <a href="mailto:philipp.sattler@web.de">E-Mail</a>-Adresse erreichen.
+              Grundsätzlich bin ich über meine <a href="mailto:philipp.sattler@web.de">E-Mail</a>-Adresse erreichen.
             </p>
             <p>Weitere Kontaktmöglichkeiten:</p>
             <ul className="contact-list">
