@@ -5,13 +5,29 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <h1 className="CMD-Style">Hello, World</h1>
+        <h1 className="CMD-Style">hello, world</h1>
       </header>
       <main className="App-main">
         <section className="about-section">
-          <div className="about-content">
-            <h2>Über mich</h2>
-            <p>Mein Name ist Philipp Sattler und ich bin ein begeisterter Softwareentwickler mit Leidenschaft für React und TypeScript.</p>
+          <div className="card-container">
+            <img src="https://github.com/philippsattler/priv/blob/main/src/image.jpg" alt="myself" />
+            <h3>Philipp Sattler</h3>
+            <p>Softwareentwickler</p>
+            <br/>
+            <p>Ich bin ein begeisteter Softwareentwickler</p>
+            <div className="skills">
+              <h6>Skills</h6>
+              <ul>
+                <li>Java</li>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>React</li>
+                <li>Python</li>
+                <li>QlikView</li>
+                <li>QlikSense</li>
+                <li>Git</li>
+              </ul>
+            </div>
           </div>
         </section>
         <section className="contact-section">
