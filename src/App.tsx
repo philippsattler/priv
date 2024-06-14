@@ -10,9 +10,10 @@ const App: React.FC = () => {
       <main className="App-main">
         <section className="about-section">
           <div className="card-container">
-            <img className="round" src="http://philippsattler.de/image.jpg" alt="myself" />
+            <img className="round" src="image.jpg" alt="myself" />
             <h3>Philipp Sattler</h3>
-            <p>Softwareentwickler</p>
+            <p>Development Operator</p>
+            <p>Ich bin ein begeisteter Softwareentwickler, mit dem Ziel, mich stetig weiterzubilden.</p>
             <br/>
             <div className="skills">
               <h6>Skills</h6>
@@ -33,13 +34,13 @@ const App: React.FC = () => {
           <div className="contact-content">
             <h2>Kontakt</h2>
             <p>
-              Grundsätzlich bin ich über meine <a href="mailto:philipp.sattler@web.de">E-Mail</a>-Adresse erreichen.
+              Grundsätzlich bin ich über meine <a href="mailto:philipp.sattler@web.de">E-Mail</a>-Adresse erreichbar.
             </p>
             <p>Weitere Kontaktmöglichkeiten:</p>
             <ul className="contact-list">
-              <li>LinkedIn: <a href="https://www.linkedin.com/in/philipp-sattler-98a973247/">Philipp Sattler</a></li>
-              <li>GitHub: <a href="https://github.com/philippsattler/">philippsattler</a></li>
-              <li>Discord: <a href="https://discord.com/users/philipp_sattler">philipp_sattler</a></li>
+              <li><img className="icon" alt="linkedin icon" src="icons/linkedin.svg"/><a href="https://www.linkedin.com/in/philipp-sattler-98a973247/">LinkedIn</a></li>
+              <li><img className="icon" alt="github icon" src="icons/github.svg"/><a href="https://github.com/philippsattler/">GitHub</a></li>
+              <li><img className="icon" alt="discord icon" src="icons/discord.svg"/><a href="https://discord.com/users/philipp_sattler">Discord</a></li>
             </ul>
 
           </div>
