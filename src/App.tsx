@@ -14,7 +14,7 @@ const App: React.FC = () => {
             <h3>Philipp Sattler</h3>
             <p>Development Operator</p>
             <p>Ich bin ein begeisteter Softwareentwickler, mit dem Ziel, mich stetig weiterzubilden.</p>
-            <br/>
+            <br />
             <div className="skills">
               <h6>Skills</h6>
               <ul>
@@ -26,6 +26,8 @@ const App: React.FC = () => {
                 <li>QlikView</li>
                 <li>QlikSense</li>
                 <li>Git</li>
+                <li>SQL</li>
+                <li>PL/SQL</li>
               </ul>
             </div>
           </div>
@@ -34,13 +36,12 @@ const App: React.FC = () => {
           <div className="contact-content">
             <h2>Kontakt</h2>
             <p>
-              Grundsätzlich bin ich über meine <a href="mailto:philipp.sattler@web.de">E-Mail</a>-Adresse erreichbar.
+              Grundsätzlich bin ich per <a href="mailto:philipp.sattler@web.de">E-Mail</a> erreichbar. Alternativ können Sie mich auch über die hier aufgeführten Netzwerke kontaktieren:
             </p>
-            <p>Weitere Kontaktmöglichkeiten:</p>
             <ul className="contact-list">
-              <li><img className="icon" alt="linkedin icon" src="icons/linkedin.svg"/><a href="https://www.linkedin.com/in/philipp-sattler-98a973247/">LinkedIn</a></li>
-              <li><img className="icon" alt="github icon" src="icons/github.svg"/><a href="https://github.com/philippsattler/">GitHub</a></li>
-              <li><img className="icon" alt="discord icon" src="icons/discord.svg"/><a href="https://discord.com/users/philipp_sattler">Discord</a></li>
+              <li><img className="icon" alt="linkedin icon" src="icons/linkedin.svg" /><a href="https://www.linkedin.com/in/philipp-sattler-98a973247/">LinkedIn</a></li>
+              <li><img className="icon" alt="github icon" src="icons/github.svg" /><a href="https://github.com/philippsattler/">GitHub</a></li>
+              <li><img className="icon" alt="discord icon" src="icons/discord.svg" /><a href="https://discord.com/users/philipp_sattler">Discord</a></li>
             </ul>
 
           </div>
