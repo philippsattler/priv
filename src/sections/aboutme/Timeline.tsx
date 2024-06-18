@@ -22,7 +22,7 @@ const Timeline = () => {
           <div className="card">
             <div className="info">
               <h3 className="title">Privates</h3>
-              <p>Neben meinem Beruf interessiere ich mich auch privat für die Informatik. Dazu unter anderem Hard- und Softwareprojekte mit dem Raspberry Pi und Linux-Servern.</p>
+              <p>Neben meinem Beruf interessiere ich mich auch privat für die Informatik. Dazu zählen unter anderem Hard- und Softwareprojekte mit dem Raspberry Pi und Linux-Servern.</p>
             </div>
           </div>
           <div className="card">
