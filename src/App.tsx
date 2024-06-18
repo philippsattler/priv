@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Timeline from './Timeline.tsx'
 
 const App: React.FC = () => {
   return (
@@ -31,6 +32,9 @@ const App: React.FC = () => {
               </ul>
             </div>
           </div>
+        </section>
+        <section>
+          <Timeline />
         </section>
         <section className="contact-section">
           <div className="contact-content">
